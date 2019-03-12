@@ -1,0 +1,60 @@
+footer {
+  background: rgba(18,40,62,0.8);
+  width: 100%;
+  position: relative;
+  height: 200px; }
+  footer .titulo {
+    color: #fafafa;
+   font-family:Arial ;
+    font-size: 30px;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    font-weight: bold; }
+  footer a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: 0px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 3%;
+    aling-content: center; }
+  footer .fb {
+    color:  #fbfcfc;
+    background: #3e3bce;
+    font-size: 20px;
+    position: absolute;
+    left: 39%;
+    top: 45%; }
+    footer .fb .icon-facebook {
+      position: relative;
+      left: 5px; }
+    footer .fb:hover {
+      opacity: 0.5; }
+  footer .tw {
+    color: #fbfcfc;
+    background: #95ccf8;
+    font-size: 20px;
+    position: absolute;
+    left: 49%;
+    top: 45%; }
+    footer .tw .icon-twitter {
+      position: relative;
+      left: 5px; }
+    footer .tw:hover {
+      opacity: 0.5; }
+  footer .ig {
+    color: #fbfcfc;
+    background: #d77534;
+    font-size: 20px;
+    position: absolute;
+    left: 59%;
+    top: 45%; }
+    footer .ig .icon-instagram {
+      position: relative;
+      left: 5px; }
+    footer .ig:hover {
+      opacity: 0.5; }
+
+/*# sourceMappingURL=footer.css.map */

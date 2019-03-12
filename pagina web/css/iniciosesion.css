@@ -1,0 +1,78 @@
+main {
+  background: rgba(90, 111, 243, 0.5);
+  padding: 80px; }
+  main .cuadro1 {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    left: 25%;
+    border: 1px solid #ffffff;
+    background: #919191; }
+    main .cuadro1 .imagen1 {
+      position: absolute;
+      width: 90%;
+      left: 30%;
+      top: 110px; }
+    main .cuadro1 .imagen2 {
+      position: absolute;
+      width: 50%;
+      top: 130px; }
+    main .cuadro1 .estudiante {
+      display: block;
+      background: white;
+      color: black;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 18px;
+      width: 100px;
+      padding: 10px;
+      position: absolute;
+      left: 18%;
+      top: 80%;
+      text-decoration: none;
+      border: 0 solid #919191;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0px 0px 10px #000000; }
+      main .cuadro1 .estudiante .o {
+        position: relative;
+        left: 1px; }
+      main .cuadro1 .estudiante:hover {
+        opacity: 0.5; }
+    main .cuadro1 .asesor {
+      display: block;
+      background: white;
+      color: black;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 18px;
+      width: 100px;
+      padding: 10px;
+      text-decoration: none;
+      position: absolute;
+      left: 65%;
+      top: 80%;
+      border: 0 solid #919191;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0px 0px 10px #000000; }
+      main .cuadro1 .asesor .lo {
+        position: relative;
+        left: 12px; }
+      main .cuadro1 .asesor:hover {
+        opacity: 0.5; }
+  main .cuadro2 {
+    background: #de3434;
+    color: white;
+    width: 250px;
+    height: 80px;
+    position: relative;
+    left: 29%;
+    bottom: 5%;
+    border: 1px solid #ffffff; }
+    main .cuadro2 h2 {
+      font-family: Arial;
+      font-size: 30px;
+      text-align: center;
+      position: relative;
+      top: 25%; }
+
+/*# sourceMappingURL=iniciosesion.css.map */

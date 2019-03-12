@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FT-Nosotros</title>
+	<link rel="shorcut icon" type="image/x-icon" href="../imagenes/icono.ico">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/icomoon/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/punto/punto.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/nosotros.css">
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../js/eskju.jquery.scrollflow.min.js"></script>
+
+</head>
+<body>
+<header>
+<div class="navegacion">
+<div class="logo"><a href="index.html"><img src="../imagenes/logo.png"></a></div>
+	<ul class="nav">
+		<li><a href="nosotros.html">Nosotros</a></li>
+		<li><a href="#contacto">Contactanos</a></li>
+		<li><a href="iniciosesion.html">Iniciar Sesion</a></li>
+		<li><a href="registrar.html"> Registrate</a></li>
+	</ul>
+</div>	
+<div class="fondo">
+	<div><h2 class="scrollflow -pop -opacity"><span class="bold">Preparacion para Estudiantes Universitarios</span><br><span class="nada">con asesores altamente calificados</span></h2>
+	<a href="iniciosesion.html" class="scrollflow -pop -opacity">Empezar ahora</a>
+	</div>
+</div>
+</header>
+<main>
+<div class="titulo1"><h2 class="scrollflow -slide-right -opacity">Testimonios</h2></div>
+<section class="slide ">
+	<div class="testimonio1 ">
+	<img src="../imagenes/testimonio1.png" class="imagen1">
+	<p class="p1">"Me fue bien la verdad,lo entendi, me enseño un par de cosas nuevas y me dejo sacarle fotocopia a unas hojas de teoria que tenia"</p><p class="n1">Renato Casaverde <br> <span class="c1">Estudiante</span></p>
+	</div>
+	<div class="testimonio2 "><img src="../imagenes/testimonio2.png" class="imagen2">
+	<p class="p2">"La verdad Fast Trainer me ha sacado de apuros más de una vez.Los asesores enseñan muy bien,son personas de nuestra edad que me han enseñado de una manera muy interesante los cursos"</p><p class="n2">Diego Hervias<br> <span class="c2">Estudiante</span></p></div>
+	<div class="testimonio3 "><img src="../imagenes/testimonio3.png" class="imagen3">
+	<p class="p3">"Con Fast Trainer encontre la manera de lo bien que aprendi los cursos durante el ciclo, aparte que me ayuda economicamete, perfecciono los cursos en los que soy bueno y mejoro mi forma de expresarme"</p><p class="n3">Samir Cedillo<br> <span class="c3">Asesor</span></p></div>
+</section>
+
+<script src="../js/jquery.slides.js"></script>
+<script >
+	$(function(){
+  $(".slide").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "fade",
+        // [string] Can be either "slide" or "fade".
+      interval: 1500,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: false,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: true,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 1000
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+</script>
+<script type="">
+	$(function(){
+  $(".slide").slidesjs({
+    width:1349,
+    height:400
+  });
+});
+</script>
+<section class="auspiciados">
+<h2 class="scrollflow -slide-left -opacity"> Con el apoyo:</h2>
+	<img src="../imagenes/equipu.png" class="equipu scrollflow -slide-top -opacity ">
+</section>
+</main>
+<footer id="contacto">
+	<h2 class="titulo">Contactanos:</h2>
+	<a href="#" class="fb"><h2><span class="icon-facebook"></span></h2></a>
+	<a href="#" class="tw "><h2><span class="icon-twitter"></span></h2></a>
+	<a href="#" class="ig "><h2><span class="icon-instagram"></span></h2></a>
+</footer>
+</body>
+</html>

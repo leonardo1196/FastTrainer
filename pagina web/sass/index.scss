@@ -1,0 +1,59 @@
+main{
+	background:rgba(90,111,243,0.5);
+	position:relative;
+	top:-2px;
+	height:1100px;
+	.flecha{
+	 width:300px;
+	 borde:0 solid white;
+	 border-radius:100%;
+	 position:relative;
+	 left:10%;
+	 top:80px;
+
+	}
+	.texto1{
+	color:white;
+	font-family:Arial;
+	font-size:30px;
+	position: relative;
+	left:540px;
+	top:-100px;
+	width:700px;
+	}
+	.cohete{
+	 width:300px;
+	 border:0 solid white;
+	 border-radius:100%;
+	 position:relative;
+	 left:68%;
+	 top:50px;
+	}
+	.texto2{
+		color:white;
+		font-family:Arial;
+		font-size:30px;
+		position: relative;
+		left:400px;
+		top:-100px;
+		width:700px;
+	}	
+	.celular{
+	 width:300px;
+	 border:0 solid white;
+	 border-radius:100%;
+	 position:relative;
+	 left:10%;
+	 top:8px;
+	}
+	.texto3{
+	  color:white;
+		font-family:Arial;
+		font-size:30px;
+		position: relative;
+		left: 700px;
+		top:-160px;
+		width:500px;
+		
+	}
+}

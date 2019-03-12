@@ -1,0 +1,185 @@
+main{
+	background: rgba(90, 111, 243, 0.5);
+	.slide{
+	     width:100%;
+	     position:relative;
+	    background: rgb(65,83,101);
+	     
+		
+	     .testimonio1{
+	   
+	     
+	     width:90%;
+	     height:360px;
+	     position:relative;
+	     top:-20px;
+	     left:2%;
+	     .imagen1{
+	     position:absolute;
+	     width:70%;
+	     top:25px;
+	     left:35px;
+	     }
+	      .p1{
+	      		font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:40%;
+	      		top:20%;
+	      		width:600px;
+	      		}
+	      .n1{
+	      		font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:65%;
+	      		top:60%;
+	      		width:400px;
+	      		margin-botton:10px;
+	      }
+	      .c1{
+	      font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:30%;
+	      		width:200px;
+	      }
+	     }
+	     .testimonio2{
+	     
+	    
+	     width:90%;
+	      height:360px;
+	     
+	     position:relative;
+	     left:2%;
+	      .imagen2{
+	     position:absolute;
+	     width:70%;
+	     top:25px;
+	     left:35px;
+	     }
+	      .p2{
+	      		font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:40%;
+	      		top:20%;
+	      		width:600px;
+	      		}
+	      .n2{
+	      		font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:65%;
+	      		top:70%;
+	      		width:400px;
+	      		margin-botton:10px;
+	      }
+	      .c2{
+	      font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:30%;
+	      		width:200px;
+	      }
+	     }
+	     .testimonio3{
+	    
+	     
+	      height:360px;
+	     width:90%;
+	   
+	     position:relative;
+	     left:2%;
+	      .imagen3{
+	     position:absolute;
+	     width:70%;
+	     top:25px;
+	     left:35px;
+	     }
+	      .p3{
+	      		font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:40%;
+	      		top:20%;
+	      		width:600px;
+	      		}
+	      .n3{
+	      		font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:65%;
+	      		top:70%;
+	      		width:400px;
+	      		margin-botton:10px;
+	      }
+	      .c3{
+	      font-family:Arial;
+	      		font-size:30px;
+	      		color:white;
+	      		position:absolute;
+	      		left:30%;
+	      		width:200px;
+	      }
+	     }
+
+	     .slidesjs-pagination{
+	     
+	     list-style:none;
+	     overflow:hidden;
+
+	     li{
+	      float:left;
+	     a{
+	     text-decoration:none;
+	     display:block;
+	     padding:10px 20px;
+	     margin:20px;
+	     color:white;
+	     position:relative;
+	     left:600px;
+	     }
+	     .icon-controller-record{
+	        font-size:20px;
+	        .activate{
+	        opacity:0.5;
+	        }
+	        }
+
+	     }
+	     
+	     }
+	}
+ .auspiciados{
+ position:relative;
+ top:30px;
+ height:500px;
+ h2{
+ position:absolute;
+ left:43%;
+ top:40px;
+ color:white;
+ font-family:Arial;
+ font-size:40px;
+ font-weight:normal;
+ }
+ }
+ .equipu{
+ 	position:absolute;
+ 	left:37%;
+ 	top:180px;
+ 	width:400px;
+ }
+	
+
+}

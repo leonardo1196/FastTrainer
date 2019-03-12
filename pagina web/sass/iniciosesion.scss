@@ -1,0 +1,31 @@
+main{
+	background: rgba(90, 111, 243, 0.5);
+	padding:80px;
+	.cuadro1{
+			position:relative;
+			width:600px;
+			height:500px;
+			left:25%;
+			border:1px solid #ffffff;
+			
+	background:#919191;
+	
+}
+	.cuadro2{
+		background:#de3434;
+		color:white;
+		width:250px;
+		height:80px;
+		position: relative;
+		left:29%;
+		bottom:5%;
+		border:1px solid #ffffff;
+		h2{
+			font-family: Arial ;
+			font-size:30px;
+			text-align:center;
+			position:relative;
+			top:25%;
+		}
+	}
+}

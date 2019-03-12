@@ -1,0 +1,36 @@
+main {
+  font-family: Arial;
+  color: white; }
+  main a {
+    text-decoration: none; }
+  main section {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background: rgba(90, 111, 243, 0.5);
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 300px; }
+    main section h2 {
+      position: absolute;
+      top: 40%;
+      left: 15%;
+      font-size: 40px; }
+    main section a {
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 25px;
+      color: #161ebe;
+      position: absolute;
+      top: 70%;
+      left: 80%; }
+      main section a:hover {
+        color: red; }
+  main .unir {
+    background: #787980; }
+    main .unir h2 {
+      left: 50%; }
+    main .unir a {
+      left: 15%; }
+
+/*# sourceMappingURL=sesion.css.map */

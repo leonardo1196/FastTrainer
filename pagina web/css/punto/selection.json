@@ -1,0 +1,64 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M512 153.6c-197.939 0-358.4 160.41-358.4 358.4 0 197.888 160.461 358.4 358.4 358.4s358.4-160.512 358.4-358.4c0-197.99-160.461-358.4-358.4-358.4z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "controller-record"
+        ],
+        "grid": 20
+      },
+      "attrs": [],
+      "properties": {
+        "id": 56,
+        "order": 2364,
+        "prevSize": 20,
+        "code": 59648,
+        "name": "controller-record"
+      },
+      "setIdx": 0,
+      "setId": 0,
+      "iconIdx": 55
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": false,
+    "gridSize": 16,
+    "showLiga": false
+  }
+}
